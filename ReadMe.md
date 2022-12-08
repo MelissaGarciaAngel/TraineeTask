@@ -13,7 +13,7 @@ settings:
  - Traffic should be routed between two instances.
  - In AWS(use Network LoadBalancer)
 
-![Picture 1 – Infrastructure diagram in AWS](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png)
+![Picture 1 – Infrastructure diagram in AWS](https://github.com/MelissaGarciaAngel/traineeTask/blob/main/util/img1.png?raw=true)
 Picture 1 – Infrastructure diagram in AWS
 
 The Second scenario you should create Bash (PowerShell) scripts that can deploy web server (IIS, NGINX, Apache and etc.) with hello world website to VMs created in the previous scenario. Each script run should clean up and redeploy all artifacts and components.
