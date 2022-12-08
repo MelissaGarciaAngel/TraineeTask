@@ -45,7 +45,7 @@ resource "aws_instance" "VM1_AZ1" {
   vpc_security_group_ids = [aws_security_group.http-sg.id]
   subnet_id              = aws_subnet.SUBNET_AZ1.id
   associate_public_ip_address = true
-  user_data = file("user_data/user_data.tpl")
+  user_data = file("user_data/user_data_VM1.tpl")
     tags = {
       Name = "VM1_AZ1"
     }
@@ -58,7 +58,7 @@ resource "aws_instance" "VM2_AZ2" {
   vpc_security_group_ids = [aws_security_group.http-sg.id]
   subnet_id              = aws_subnet.SUBNET_AZ2.id
   associate_public_ip_address = true
-  user_data = file("user_data/user_data.tpl")
+  user_data = file("user_data/user_data_VM2.tpl")
       tags = {
       Name = "VM2_AZ2"
     }
