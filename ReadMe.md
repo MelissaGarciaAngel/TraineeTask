@@ -13,7 +13,7 @@ settings:
  - Traffic should be routed between two instances.
  - In AWS(use Network LoadBalancer)
 
-![Picture 1 – Infrastructure diagram in AWS](https://github.com/MelissaGarciaAngel/traineeTask/blob/main/util/img1.png?raw=true)
+![Picture 1 – Infrastructure diagram in AWS](https://github.com/MelissaGarciaAngel/traineeTask/blob/main/util/img1.png?raw=true) <br  />
 Picture 1 – Infrastructure diagram in AWS
 
 The Second scenario you should create Bash (PowerShell) scripts that can deploy web server (IIS, NGINX, Apache and etc.) with hello world website to VMs created in the previous scenario. Each script run should clean up and redeploy all artifacts and components.
@@ -26,14 +26,14 @@ Install `terraform` 👌
 
 <br  />
 
-Add your `access_key` and `secret_key` to the `variables.tf` file, the keys are from an IAM user with permissions to create.
+Create a profile named `trainee_challenge` using AWS CLI, the user should be an IAM user with permissions to create.
 
   
   
 
 ## Usage
 
-Ensure that the IAM user credentials are placed in the `variables.tf` file.
+Ensure that the profile named `trainee_challenge` is correctly created in your machine, the used region is `us-east-1`. Optionally you can change the name of the `profile` variable in the `variables.tf` file to match your personal variable..
 
   
 
