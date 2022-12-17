@@ -1,4 +1,4 @@
-#Provides a Target Group resource for use with Load Balancer resources
+#Provides a Target Group resource to use with Load Balancer resources
 resource "aws_lb_target_group" "LoadBalancer" {
   name     = "application-LoadBalancer"
   port     = 80

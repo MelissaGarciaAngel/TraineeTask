@@ -33,7 +33,7 @@ Create a profile named `trainee_challenge` using AWS CLI, the user should be an 
 
 ## Usage
 
-Ensure that the profile named `trainee_challenge` is correctly created in your machine, the used region is `us-east-1`. Optionally you can change the name of the `profile` variable in the `variables.tf` file to match your personal variable..
+Ensure that the profile named `trainee_challenge` is correctly created in your machine, the used region is `us-east-1`. Optionally you can change the name of the `profile` variable in the `variables.tf` file to match your personal variable.
 
   
 
