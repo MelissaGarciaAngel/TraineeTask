@@ -45,6 +45,7 @@ resource "aws_lb" "LoadBalancer" {
   subnets            = [aws_subnet.SUBNET_AZ1.id, aws_subnet.SUBNET_AZ2.id]
 
   enable_deletion_protection = false
+  enable_cross_zone_load_balancing = true
 
   tags = {
     Environment = "LoadBalancer"
